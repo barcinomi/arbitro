@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Wallet Key Installation
 
 <p style="font-size:25px">Add your WalletKey.pem in /storage/keys</p>
 
