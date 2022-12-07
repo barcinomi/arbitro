@@ -20,4 +20,5 @@ Route::get('/swap',  [PagesController::class, 'swap']);
 Route::get('/swaputk',  [PagesController::class, 'swaputk']);
 Route::get('/wrap',  [PagesController::class, 'wrapEGLD']);
 Route::get('/unwrap',  [PagesController::class, 'unwrapEGLD']);
+Route::get('/sendToBinanceUTK',  [PagesController::class, 'sendToBinanceUTK']);
 

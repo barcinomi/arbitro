@@ -140,6 +140,118 @@
                             </div>
                         </div>
                     </div>
+                </div>      
+
+                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
+                    <div class="">
+                        <div class="p-6">
+                            <div class="flex flex-col items-center">
+                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 74.998 74.998">
+                                <g transform="translate(-165 -102.2)">
+                                    <g transform="translate(165 102.2)">
+                                    <g transform="translate(0 0)">
+                                        <path d="M1151,1343.793a37.5,37.5,0,1,1-75,0c0-.894.026-1.775.089-2.655a37.812,37.812,0,0,1,8.285-21.012,6.917,6.917,0,0,1,1.328-1.468,38.134,38.134,0,0,1,10.927-8.336,36.971,36.971,0,0,1,13.174-3.842c1.213-.115,2.438-.179,3.689-.179a37.475,37.475,0,0,1,19.736,5.591c.345.217.677.421,1.008.651.549.37,1.1.753,1.634,1.136.715.523,1.4,1.085,2.068,1.659.14.115.268.23.4.345l.013.013a37.472,37.472,0,0,1,6.868,8.068,36.879,36.879,0,0,1,3.868,8.17c.281.83.523,1.672.74,2.528.051.217.1.421.153.638s.1.434.14.651c.089.434.179.868.255,1.3A35.5,35.5,0,0,1,1151,1343.793Z" transform="translate(-1076 -1306.3)" fill="#fcfdfc"/>
+                                        <path d="M1007.512,1232.5v0a14.629,14.629,0,0,0-6.394,3.945.206.206,0,0,0-.026.03,9.37,9.37,0,0,0-.705.821,14.541,14.541,0,0,0-2.786,5.7h0v0a14.54,14.54,0,0,1,2.786-5.7,9.369,9.369,0,0,1,.705-.821.174.174,0,0,0,.022-.026,14.649,14.649,0,0,1,6.4-3.949Z" transform="translate(-960.187 -1186.278)" fill="#fcfcfd"/>
+                                    </g>
+                                    </g>
+                                    <path d="M46.346,14.7V46.953H15.613V14.7H46.346V5.478H27.494l-21.45,16V31.741c0,13.419,11.418,24.692,25.367,24.477a25.447,25.447,0,0,0,17.347-7.177A23.554,23.554,0,0,0,55.92,32.235V14.7Z" transform="translate(171.517 108.849)" fill="#6932d4"/>
+                                </g>
+                                </svg> -->
+
+                                <svg version="1.1" id="Your_design" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                        y="0px" width="350.014px" height="35px" viewBox="0 0 632.014 126.611" enable-background="new 0 0 632.014 126.611"
+                                        xml:space="preserve">
+                                    <polygon fill="#F3BA2F" points="38.171,53.203 62.759,28.616 87.36,53.216 101.667,38.909 62.759,0 23.864,38.896 "/>
+                                    <rect x="3.644" y="53.188" transform="matrix(0.7071 0.7071 -0.7071 0.7071 48.7933 8.8106)" fill="#F3BA2F" width="20.233" height="20.234"/>
+                                    <polygon fill="#F3BA2F" points="38.171,73.408 62.759,97.995 87.359,73.396 101.674,87.695 101.667,87.703 62.759,126.611 
+                                        23.863,87.716 23.843,87.696 "/>
+                                    <rect x="101.64" y="53.189" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 235.5457 29.0503)" fill="#F3BA2F" width="20.234" height="20.233"/>
+                                    <polygon fill="#F3BA2F" points="77.271,63.298 77.277,63.298 62.759,48.78 52.03,59.509 52.029,59.509 50.797,60.742 48.254,63.285 
+                                        48.254,63.285 48.234,63.305 48.254,63.326 62.759,77.831 77.277,63.313 77.284,63.305 "/>
+                                    <path fill="#F3BA2F" d="M148.37,30.679h31.117c7.723,0,13.563,1.982,17.521,5.946c3.063,3.07,4.594,6.875,4.594,11.414v0.192
+                                        c0,1.918-0.237,3.613-0.714,5.083c-0.476,1.472-1.112,2.797-1.907,3.98c-0.793,1.184-1.715,2.223-2.763,3.117
+                                        c-1.049,0.896-2.176,1.664-3.383,2.302c3.882,1.472,6.938,3.469,9.166,5.995c2.227,2.527,3.342,6.028,3.342,10.503v0.191
+                                        c0,3.07-0.59,5.755-1.771,8.058c-1.181,2.301-2.873,4.22-5.076,5.755c-2.203,1.535-4.852,2.685-7.948,3.453
+                                        c-3.096,0.767-6.527,1.15-10.292,1.15H148.37V30.679z M176.376,57.822c3.262,0,5.852-0.558,7.769-1.678
+                                        c1.918-1.119,2.877-2.926,2.877-5.419v-0.192c0-2.237-0.832-3.947-2.494-5.131c-1.663-1.183-4.061-1.775-7.193-1.775h-14.579v14.195
+                                        H176.376z M180.309,84.871c3.261,0,5.817-0.59,7.673-1.774c1.854-1.183,2.782-3.022,2.782-5.516V77.39
+                                        c0-2.238-0.864-4.012-2.59-5.324c-1.727-1.309-4.508-1.965-8.345-1.965h-17.073v14.771H180.309z"/>
+                                    <path fill="#F3BA2F" d="M223.875,30.679h14.772v67.141h-14.772V30.679z"/>
+                                    <path fill="#F3BA2F" d="M261.02,30.679h13.618l31.461,41.34v-41.34h14.579v67.141h-12.564l-32.516-42.682v42.682H261.02V30.679z"/>
+                                    <path fill="#F3BA2F" d="M365.398,30.2h13.619l28.776,67.62H392.35l-6.139-15.058h-28.391l-6.138,15.058h-15.061L365.398,30.2z
+                                        M380.936,69.716l-8.921-21.772l-8.918,21.772H380.936z"/>
+                                    <path fill="#F3BA2F" d="M423.738,30.679h13.621l31.459,41.34v-41.34h14.579v67.141h-12.564l-32.516-42.682v42.682h-14.579V30.679z"
+                                        />
+                                    <path fill="#F3BA2F" d="M536.557,98.97c-4.926,0-9.496-0.896-13.717-2.685s-7.865-4.236-10.934-7.338
+                                        c-3.07-3.101-5.469-6.762-7.193-10.982c-1.727-4.221-2.59-8.729-2.59-13.525v-0.191c0-4.796,0.863-9.287,2.59-13.476
+                                        c1.725-4.188,4.123-7.865,7.193-11.03c3.068-3.165,6.746-5.66,11.029-7.482s9.018-2.733,14.197-2.733
+                                        c3.131,0,5.992,0.257,8.582,0.767c2.59,0.513,4.939,1.215,7.051,2.11c2.111,0.896,4.059,1.983,5.852,3.261
+                                        c1.787,1.28,3.451,2.686,4.986,4.221l-9.398,10.838c-2.625-2.365-5.293-4.221-8.01-5.563c-2.719-1.342-5.771-2.014-9.16-2.014
+                                        c-2.814,0-5.42,0.544-7.816,1.631c-2.398,1.087-4.461,2.589-6.188,4.507c-1.725,1.918-3.068,4.141-4.029,6.666
+                                        c-0.957,2.527-1.436,5.228-1.436,8.105v0.191c0,2.877,0.479,5.596,1.436,8.152c0.961,2.559,2.285,4.796,3.982,6.714
+                                        c1.693,1.918,3.74,3.438,6.137,4.557c2.4,1.12,5.037,1.678,7.914,1.678c3.838,0,7.08-0.703,9.734-2.11
+                                        c2.654-1.405,5.293-3.324,7.914-5.755l9.4,9.496c-1.727,1.855-3.52,3.518-5.371,4.987c-1.855,1.472-3.885,2.734-6.092,3.79
+                                        c-2.205,1.054-4.621,1.855-7.24,2.397C542.756,98.697,539.816,98.97,536.557,98.97z"/>
+                                    <path fill="#F3BA2F" d="M581.467,30.679h50.547v13.141h-35.967v13.62h31.652v13.14h-31.652v14.1h36.449v13.14h-51.029V30.679z"/>
+                                    </svg>
+
+                                <div class="ml-4 text-lg leading-7 font-semibold"><a class="text-gray-900 dark:text-white box">Send UTK to Binance</a></div>
+                            </div>
+                            
+
+                            <div class="ml-12">
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                    Enter the UTK amount you want to send to Binance.
+                                    <p></p>
+                                    Sending to {{ env('BINANCE_UTK_WALLET') }}
+                                    <p></p>
+                                        <form action="/sendToBinanceUTK" method="get">
+                                        @csrf
+                                                <label for="first_name" class="block mt-5 mb-2 text-sm font-medium text-gray-900 dark:text-white">UTK amount:</label> 
+                                                <input type="string" id="sendToBinanceUTK_amount" name="sendToBinanceUTK_amount" class="bg-gray-50 mt-3 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Amount"><p>
+                                                <p class="text-right mt-1">Balance: {{ $walletBalanceUTK }} UTK</p>
+                                                <input type="submit" value="Send to Binance" class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded-full mt-3 w-full">
+                                        </form>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!-- <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
+                            <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 74.998 74.998">
+                                <g transform="translate(-165 -102.2)">
+                                    <g transform="translate(165 102.2)">
+                                    <g transform="translate(0 0)">
+                                        <path d="M1151,1343.793a37.5,37.5,0,1,1-75,0c0-.894.026-1.775.089-2.655a37.812,37.812,0,0,1,8.285-21.012,6.917,6.917,0,0,1,1.328-1.468,38.134,38.134,0,0,1,10.927-8.336,36.971,36.971,0,0,1,13.174-3.842c1.213-.115,2.438-.179,3.689-.179a37.475,37.475,0,0,1,19.736,5.591c.345.217.677.421,1.008.651.549.37,1.1.753,1.634,1.136.715.523,1.4,1.085,2.068,1.659.14.115.268.23.4.345l.013.013a37.472,37.472,0,0,1,6.868,8.068,36.879,36.879,0,0,1,3.868,8.17c.281.83.523,1.672.74,2.528.051.217.1.421.153.638s.1.434.14.651c.089.434.179.868.255,1.3A35.5,35.5,0,0,1,1151,1343.793Z" transform="translate(-1076 -1306.3)" fill="#fcfdfc"/>
+                                        <path d="M1007.512,1232.5v0a14.629,14.629,0,0,0-6.394,3.945.206.206,0,0,0-.026.03,9.37,9.37,0,0,0-.705.821,14.541,14.541,0,0,0-2.786,5.7h0v0a14.54,14.54,0,0,1,2.786-5.7,9.369,9.369,0,0,1,.705-.821.174.174,0,0,0,.022-.026,14.649,14.649,0,0,1,6.4-3.949Z" transform="translate(-960.187 -1186.278)" fill="#fcfcfd"/>
+                                    </g>
+                                    </g>
+                                    <path d="M46.346,14.7V46.953H15.613V14.7H46.346V5.478H27.494l-21.45,16V31.741c0,13.419,11.418,24.692,25.367,24.477a25.447,25.447,0,0,0,17.347-7.177A23.554,23.554,0,0,0,55.92,32.235V14.7Z" transform="translate(171.517 108.849)" fill="#6932d4"/>
+                                </g>
+                                </svg>
+                                <div class="ml-4 text-lg leading-7 font-semibold"><a class="text-gray-900 dark:text-white">UTK to WEGLD</a></div>
+                            </div>
+
+                            <div class="ml-12">
+                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
+                                    Enter the UTK amount you want to convert to EGLD.
+
+                                    <p></p>
+                                        <form action="/swaputk" method="get">
+                                        @csrf
+                                                <label for="first_name" class="block mt-5 mb-2 text-sm font-medium text-gray-900 dark:text-white">UTK amount:</label>
+                                                <input type="string" id="utk_amount" name="utk_amount" class="bg-gray-50 mt-3 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Amount"><p></p>
+                                                <p class="text-right mt-1">Balance: {{ $walletBalanceUTK }} UTK</p>
+                                                <input type="submit" value="Swap to WEGLD" class="bg-violet-700 hover:bg-violet-900 text-white font-bold py-2 px-4 rounded-full mt-3 w-full">
+                                        </form>
+
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
                 </div>
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
@@ -185,6 +297,7 @@
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M138.177 101.582C119.07 101.582 103.58 117.071 103.58 136.178C103.58 155.285 119.07 170.774 138.177 170.774C157.284 170.774 172.773 155.285 172.773 136.178C172.773 117.071 157.284 101.582 138.177 101.582ZM94.3546 136.178C94.3546 111.976 113.974 92.356 138.177 92.356C162.379 92.356 181.999 111.976 181.999 136.178C181.999 160.38 162.379 180 138.177 180C113.974 180 94.3546 160.38 94.3546 136.178Z" fill="white"/>
                                     <path d="M159.998 122L150.676 150H147.595L139.498 126.12L131.361 150H128.32L118.998 122H122L129.979 146.08L138.234 122H140.959L149.096 146.2L157.193 122H159.998Z" fill="white"/>
                                     </svg>
+                                    
                                 <div class="ml-4 text-lg leading-7 font-semibold"><a class="text-gray-900 dark:text-white">Wrap EGLD</a></div>
                             </div>
                             
@@ -275,6 +388,9 @@
                 <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
                     <div class="text-center text-sm text-gray-500 sm:text-left">
                     <div class="ml-4 text-left text-sm text-gray-500 sm:text-left sm:ml-0">
+                        <!-- <svg width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="green" class="bi bi-dot">
+                            <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                            </svg> -->
                         Connected to: {{ $displayWalletAddress }}
                     </div>
                     </div>

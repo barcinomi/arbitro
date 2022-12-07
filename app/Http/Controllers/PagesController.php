@@ -154,6 +154,34 @@ class PagesController extends Controller
     }
 
 
+    public function sendToBinanceUTK(Request $request) {
+
+        $sendToBinanceUTKAmount = $request->sendToBinanceUTK_amount;
+
+        $walletKeyPem = storage_path('keys/WalletKey.pem');
+
+        $mywallet = $this->getWallet();
+        $nonce = shell_exec('erdpy account get --nonce --address ' . $mywallet);
+        $nonce = trim($nonce);
+
+            $utk = '0x55544b2d326638306539';
+    
+            $amountSendToBinance_utk = ElrondConverter::toDenominated($sendToBinanceUTKAmount);
+    
+            $result = shell_exec('erdpy --verbose contract call ' . env('BINANCE_UTK_WALLET') . ' --function ESDTTransfer  --arguments ' . $utk . ' ' . $amountSendToBinance_utk . ' --pem ' . $walletKeyPem . ' --nonce ' . $nonce . ' --gas-limit 90000000 --send');
+
+            $result = json_decode($result, true);
+
+            $transactionHash = $result['emittedTransactionHash'];
+
+        return view('sendToBinanceUTK', compact('sendToBinanceUTKAmount', 'transactionHash'));
+
+    }
+
+
+
+#GET BALANCE & INFOS
+
     private function getWalletBallanceWEGLD() {
         $url = 'https://api.elrond.com/accounts/' . $this->getWallet() . '/tokens/WEGLD-bd4d79';
 
