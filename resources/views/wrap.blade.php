@@ -58,10 +58,10 @@
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     You are swaping {{ $wrapAmount }} EGLD.<br/><br/>
 
-                                    <a href="https://{{ env('EXPLORER_URL') }}/transactions/{{ $transactionHash }}" class="underline" target="_blank">View Transaction</a>
+                                    <a href="https://{{ env('EXPLORER_URL') }}/transactions/{{ $transactionHash }}" class="bg-violet-700 hover:bg-violet-900 mt-2 text-white w-full font-bold py-2 px-4 rounded-full w-full mv-5" target="_blank">View Transaction</a>
                                     <p></p>
                                        
-                                    <button onclick="location.href='/'" class="bg-blue-500 hover:bg-blue-700 mt-2 text-white font-bold py-2 px-4 rounded-full">
+                                    <button onclick="location.href='/'" class="bg-blue-500 hover:bg-blue-700 mt-2 text-white w-full font-bold py-2 px-4 mt-5 rounded-full">
                                        Back
                                     </button>
 
